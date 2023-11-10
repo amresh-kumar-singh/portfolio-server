@@ -10,12 +10,12 @@ const sendEmail = (data, res) => {
     Messages: [
       {
         From: {
-          Email: "amresh@akmr.me",
+          Email: "kumar.akumar.amresh@gmail.com",
           Name: data.response ? "Amresh Kumar" : data.name,
         },
         To: [
           {
-            Email: data.response ? data.email : "amresh@akmr.me",
+            Email: data.response ? data.email : "kumar.akumar.amresh@gmail.com",
             Name: data.response ? data.name : "Amresh Kumar",
           },
         ],

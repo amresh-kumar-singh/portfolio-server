@@ -416,7 +416,7 @@ module.exports = HTML = ({
                       <h3 class="name">Amresh Kumar</h3>
                       <span class="position">A MERN Stack Developer</span>
                       <p>
-                        <a href="#" class="btn btn-primary">Download Resume</a>
+                        <a href="https://portfolio.akmr.me/resume" class="btn btn-primary">Download Resume</a>
                       </p>
                     </div>`
                        : `<div class="text-author" style="max-width: 85%;">
@@ -509,17 +509,17 @@ module.exports = HTML = ({
                         <td style="text-align: left; padding-left: 10px">
                           <h3 class="heading">Useful Links</h3>
                           <ul>
-                            <li><a href="#">My Porfolio</a></li>
+                            <li><a href="https://portfolio.akmr.me">My Porfolio</a></li>
                             <li>
                               <a
                                 href="https://github.com/amresh-kumar-singh"
                                 target="_blank"
-                                rel="oopener noreferre"
+                                rel="noopener noreferre"
                                 >Github</a
                               >
                             </li>
                             <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Linkedin</a></li>
+                            <li><a href="https://www.linkedin.com/in/amresh-kumar-07b012185/">Linkedin</a></li>
                           </ul>
                         </td>
                       </tr>
